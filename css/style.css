@@ -1,12 +1,39 @@
 h1  {
-    color: #009;
+    color: rgb(0, 0, 0);
     font-size: 1em;
     margin-bottom: .3em;
     text-align: center;
-    text-decoration: underline;
   }
   
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  header {
+    justify-content: center;
+    justify-items: first baseline;
+    width: 1000px;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin: auto;
+    text-align: center;
+  }
+
+  header img {
+    width: 40%;
+    margin: auto;
+  }
+
+  .titlename {
+    margin-top: 0.4em;
+    font-size: 6em;
+    font-family: 'Amatic SC', cursive;
+    border-bottom: 0.07em solid currentColor;
+  }
+
   table {
+    font-family: 'Raleway', sans-serif;
     margin: .3em;
     width: 290px;
   }
