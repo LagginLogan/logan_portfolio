@@ -1,19 +1,26 @@
+html {
+	font-size: 62.5%;
+}
 h1  {
-    color: rgb(0, 0, 0);
+    color: rgb(227, 227, 227);
     font-size: 1em;
     margin-bottom: .3em;
     text-align: center;
   }
-  
-  img {
+img {
     width: 100%;
     height: auto;
-  }
-
+}
+body {
+  color: #444;
+  background-color: rgb(32, 32, 32);
+  font-size: 1.6rem;
+  font-family: 'Gentium Book Basic', sans-serif;
+}
   header {
     justify-content: center;
     justify-items: first baseline;
-    width: 1000px;
+    width: 80em;
     margin-top: 2em;
     margin-bottom: 2em;
     margin: auto;
@@ -21,7 +28,8 @@ h1  {
   }
 
   header img {
-    width: 40%;
+    width: 22em;
+    height: 14em;
     margin: auto;
   }
 
@@ -32,28 +40,15 @@ h1  {
     border-bottom: 0.07em solid currentColor;
   }
 
-  table {
-    font-family: 'Raleway', sans-serif;
-    margin: .3em;
-    width: 290px;
+  .st_text {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px 0em;
+    font-size: 2em;
+    color: rgb(227, 227, 227);
   }
   
-  th {
-    padding: .2em;
+  .st_text :first-child {
+      align-self: center;
   }
-  
-  td {
-    background-color: #ffc;
-    border: 1px solid #900;
-    padding-left: .5em;
-    padding-right: .5em;
-  }
-  
-  #trHeader {
-    color: #900;
-    text-decoration: underline;
-  }
-  
-  .centerCell {
-    text-align: center;
-  }
+
